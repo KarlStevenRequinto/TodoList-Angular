@@ -1,0 +1,81 @@
+body {
+    font-family: sans-serif;
+    font-size: 20px;
+  }
+  
+  h1 {
+    text-align: center;
+  }
+  
+  .todos {
+    width: 400px;
+    margin: auto;
+    box-shadow: 0 3px 12px rgba(0, 0, 0, 0.25);
+  }
+  
+  .new-todo-bar,
+  .todo-list > li {
+    display: flex;
+  }
+  
+  .new-todo-bar {
+    border-bottom: 1px solid #ccc;
+  }
+  
+  #new-todo,
+  .add-btn,
+  .todo-list > li {
+    padding: 12px 16px;
+  }
+  
+  #new-todo,
+  .add-btn {
+    font: inherit;
+    border: none;
+    outline: none;
+  }
+  
+  #new-todo {
+    flex: 1;
+  }
+  
+  .add-btn {
+    background: none;
+    color: #aaa;
+  }
+  
+  .add-btn:hover,
+  .add-btn:focus {
+    color: #7a0;
+  }
+  
+  .todo-list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .todo-list > li {
+    display: flex;
+  }
+  
+  .todo-list > li > span {
+    flex: 1;
+  }
+  
+  .delete-btn {
+    border: none;
+    outline: none;
+    background: none;
+    color: #faa;
+  }
+  
+  .delete-btn:hover,
+  .delete-btn:focus {
+    color: #f00;
+  }
+
+  /*------------ BONUS (PROMPT FOR AN EMPTY TO DO LIST) ------------*/
+  p {
+    padding: 12px 16px;
+  }
